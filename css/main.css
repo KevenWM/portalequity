@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-image: linear-gradient(rgb(197, 197, 189), rgb(255, 255, 255));
+    height: 80px;
+    border-bottom: 2px solid #df911da1;
+    border-top: 2px solid #df911da1;
+
+}
+
+
+.logo {
+    margin: auto;
+    float: left;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding-top: 0.7%;
+}
+
+
+.header-1 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.header-2 {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+
+}
+
+.menu ul {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 0% 2%;
+    position: relative;
+    height: 30px;
+
+}
+
+.menu ul li a:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.menu ul li a {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom right, rgba(56, 25, 4, 0.905), rgb(111, 62, 9));
+    border-bottom: 2px solid #df911da1;
+    position: relative;
+}
+
+.menu2 {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+#rodape {
+    display: none;
+}
+
+.rodape {
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(56, 25, 4, 0.905), rgb(111, 62, 9));
+    border-top: 2px solid #df911da1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape-container {
+    align-items: center;
+    width: 80%;
+}
+
+@media (max-width: 850px) {
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.disclaimer {
+    width: 100%;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 2px solid #df911da1;
+    height: 50px;
+}
+
+/* LOGO DAS EMPRESAS*/
+
+.empresas1 {
+    width: 100%;
+    text-align: center;
+}
+
+.empresas1 ul li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(215, 210, 208);
+    border-top: 1px solid rgb(215, 210, 208);
+}
+
+.empresas1 ul li a {
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+.empresas2 {
+    width: 100%;
+    text-align: center;
+}
+
+.empresas2 ul li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(215, 210, 208);
+    border-top: 1px solid rgb(215, 210, 208);
+}
+
+.empresas2 ul li a {
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+.empresas3 {
+    width: 100%;
+    text-align: center;
+}
+
+.empresas3 ul li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(215, 210, 208);
+    border-top: 1px solid rgb(215, 210, 208);
+}
+
+.empresas3 ul li a {
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+.empresas4 {
+    width: 100%;
+    text-align: center;
+}
+
+.empresas4 ul li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(215, 210, 208);
+    border-top: 1px solid rgb(215, 210, 208);
+}
+
+.empresas4 ul li a {
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+/* Divs*/
+
+#load-page {
+    display: none;
+    width: 100%;
+}
+
+.conteudo {
+    width: 100%;
+    text-align: center;
+}
+
+.space {
+    width: 100%;
+    text-align: center;
+}
+
+/* TITULOS*/
+
+.title-dmc {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.title-dmc-desc {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-right: 50;
+}
+
+.title-hist1 {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcf8f8;
+    text-align: center;
+}
+
+.title-port {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcf8f8a1;
+    text-align: center;
+}
+
+.title-emp {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcf8f8a1;
+    text-align: center;
+}
+
+.title-comport {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #a581097a;
+    text-align: center;
+
+}
+
+.title-carta {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9c9a9a80;
+    text-align: center;
+
+}
+
+.title-youtube {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #96151580;
+    text-align: center;
+
+}
+
+.title-commacro {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #613b035d;
+    text-align: center;
+}
+
+.divback {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+/* Div das Imagens*/
+
+.histórico {
+    width: 100%;
+    text-align: center;
+}
+
+.portfólio {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 850px) {
+
+    .portfólio {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* TABELA DE RENTABILIDADE */
+
+.tabala-hist {
+    margin: auto;
+    width: 80%;
+}
+
+.table-port {
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-port td,
+.table-port th {
+    border: 1px solid #ddd;
+    padding: 0px;
+}
+
+.table-port tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-port td:hover {
+    background-color: #e9a42552;
+}
+
+.table-port th {
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: rgb(111, 62, 9);
+    color: white;
+}
+
+.table-port td {
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.fund-ibov-desc {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.bold-table {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* TABELA DE SETORES */
+
+.table-port-sec {
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+}
+
+.table-port-sec td,
+.table-port-sec th {
+    border: 1px solid #ddd;
+}
+
+.table-port-sec tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-port-sec td:hover {
+    background-color: #e9a42552;
+}
+
+.table-port-sec th {
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: rgb(111, 62, 9);
+    color: white;
+}
+
+.table-port-sec td {
+    font-size: 12px;
+    text-align: center;
+
+}
+
+/*HOLDS*/
+
+.porthold {
+    width: 980px;
+    margin: auto;
+}
+
+.macrohold {
+    width: 980px;
+    margin: auto;
+}
+
+.youtubehold {
+    width: 980px;
+    margin: auto;
+}
+
+.cartahold {
+    width: 980px;
+    margin: auto;
+}
+
+/* PRE-LOAD */
+@keyframes load {
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+#box-load {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
+
+#pre-load {
+
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/preloadvmf.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: load 1s infinite;
+}
+
+.watchlist {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}

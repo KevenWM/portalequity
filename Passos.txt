@@ -1,0 +1,18 @@
+Dynamic e VP
+1 - Tabela de retornos históricos.
+2 - Tabela e Gráfico da Carteira.
+3 - Gráfico por setor.
+4 - Gráfico por size, gráfico por tipo.
+5 - Gráfico de Upside médio.
+6 - Quanto cada ação contribuiu para a rent.0
+
+Página das empresas
+
+1 - Descrição da empresa/fundos e ETFs.
+2 - Nossa tese de investimento
+3 - Gráfico do Ativo.
+4 - Tabela de Múltiplos (EV/EBITDA, PE, PB, FFCY, 
+DY, TARGET, UPSIDE).
+5 - Comentário de resultados.
+
+

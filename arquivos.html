@@ -1,0 +1,220 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/highcharts.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/collap.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/logincall.js"></script>
+    <title>Análise Vêneto</title>
+</head>
+
+
+<body OnLoad="loading()">
+    <!--Pre-Load-->
+    <div id="box-load">
+        <div id="pre-load"></div>
+    </div>
+    <!--Pre-Load-->
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="./img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="index.html">Dynamic</a></li>
+                    <li><a href="vp.html">VP Strategy</a></li>
+                    <li><a href="prev.html">Previdência</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="arquivos.html">Arquivos</a></li>
+                    <li><a Onclick='sairlogin()' href="https://venetofamilyoffice.wixsite.com/website/">Portal
+                            Wix</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--#############COLLAPSIBLES#############-->
+
+    <div id="load-page">
+        <div class="conteudo">
+
+
+            <div class="porthold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-comport">Julho/2022 Comitê de Análise - Portfólio <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Comitê de Portfólio - Julho22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+
+
+            </div>
+
+            <div class="youtubehold">
+                <button type="button" class="collapsible">
+                    <p class="title-youtube">Julho/2022 Call Trimestral - Vêneto Dynamic <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--VÍDEO-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/45jIN18rOjM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="cartahold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-carta">Junho/2022 Carta Asset <img src="img/divback.png" class="divback" width="15"
+                            height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Carta/Carta Asset - JUNHO 22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+
+            </div>
+
+            <div class="macrohold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-commacro">Junho/2022 Comitê de Análise - Macro <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Comitê de Alocação - Junho22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+            </div>
+
+
+
+            <div class="macrohold">
+                <button type="button" class="collapsible">
+                    <p class="title-comport">Junho/2022 Comitê de Análise - Portfólio <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Comitê de Portfólio - Junho22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+            </div>
+
+            <div class="cartahold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-carta">Maio/2022 Carta Asset <img src="img/divback.png" class="divback" width="15"
+                            height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Carta/Carta Asset - MAIO 22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+
+            </div>
+
+            <div class="youtubehold">
+                <button type="button" class="collapsible">
+                    <p class="title-youtube">Maio/2022 Call Mensal - Vêneto Dynamic <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--VÍDEO-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z7Xx2Oo-C2I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="macrohold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-commacro">Maio/2022 Comitê de Análise - Macro <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Comitê de Alocação - Maio22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+            </div>
+
+            <div class="porthold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-comport">Maio/2022 Comitê de Análise - Portfólio <img src="img/divback.png"
+                            class="divback" width="15" height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Comitê de Portfólio - Maio22.pdf" type="application/pdf" width="980px"
+                        height="600px">
+                </div>
+
+            </div>
+
+            <div class="cartahold">
+
+                <button type="button" class="collapsible">
+                    <p class="title-carta">Abril/2022 Carta Asset <img src="img/divback.png" class="divback" width="15"
+                            height="15"></p>
+                </button>
+                <div class="content-collap">
+                    <!--PDF-->
+                    <embed src="data/Carta/cartaabril.pdf" type="application/pdf" width="980px" height="600px">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--#############COLLAPSIBLES#############-->
+    </div>
+</body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div id="rodape" class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
+</html>

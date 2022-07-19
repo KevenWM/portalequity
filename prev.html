@@ -1,0 +1,300 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/highcharts.css">
+    <link rel="stylesheet" type="text/css" href="css/calculator.css" />
+    <link rel="stylesheet" type="text/css" href="css/prev-css.css" />
+    <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/highchart-prev.js"></script>
+    <script src="js/logincall.js"></script>
+
+    <!-- SITE CONTENT -->
+    <title>Análise Vêneto</title>
+</head>
+
+
+<body Onload="loading()">
+    <!--Pre-Load-->
+    <div id="box-load">
+        <div id="pre-load"></div>
+    </div>
+    <!--Pre-Load-->
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="./img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="index.html">Dynamic</a></li>
+                    <li><a href="vp.html">VP Strategy</a></li>
+                    <li><a href="prev.html">Previdência</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="arquivos.html">Arquivos</a></li>
+                    <li><a Onclick='sairlogin()' href="https://venetofamilyoffice.wixsite.com/website/">Portal
+                            Wix</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="load-page">
+        <!--GRAFICO E TABELA DO FUNDO-->
+        <p class="title-hist1">Descrição do Fundo</p>
+        <div class="descriptiondivholder">
+            <div class="description-div">
+                <table cellspacing="5">
+                    <thead>
+                        <td>
+                            <h3 class="title-dmc">Vêneto 70 Icatu Previdenciário FIM</h3>
+                        </td>
+                        <td>
+                            <button class="button"
+                                onclick=" window.open('data/Lamina/LÂMINA PREV VÊNETO 70 - JUNHO - 38263360000159.pdf')"
+                                id="btn">
+
+                                <strong>Baixar Lâmina</strong> </button>
+                        </td>
+                    </thead>
+                    <tr>
+                        <td>
+                            <p class="title-dmc-desc">Foca no investimento de longo prazo, o fundo de previdência da
+                                Vêneto pode investir até 70% de seu patrimônio em ações. O fundo também investe em
+                                ativos de crédito privado e público, atrelado a inflação e ao CDI. O objetivo é gerar um
+                                rentabilidade consistente para assegurar um alto patrimônio para o cliente no momento da
+                                aposentadoria.</p>
+                        </td>
+
+                        <td><button class="button" onclick=" window.open('data/Carta/Carta Asset - JUNHO 22.pdf')"
+                                id="btn">
+
+                                <strong>Baixar Carta</strong> </button></td>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="histórico">
+            <p class="title-hist1">Rentabilidade Acumulada - Vêneto 70 Icatu Previdenciário FIM</p>
+            <div class="container" id="chart-prev"></div>
+            <br>
+            <p class="title-hist1">Histórico de Rendimentos - Vêneto 70 Icatu Previdenciário FIM</p>
+            <div class="tabala-hist">
+                <table class="table-port">
+                    <thead>
+                        <tr>
+                            <th>ANO</th>
+                            <th></th>
+                            <th>Janeiro</th>
+                            <th>Fevereiro</th>
+                            <th>Março</th>
+                            <th>Abril</th>
+                            <th>Maio</th>
+                            <th>Junho</th>
+                            <th>Julho</th>
+                            <th>Agosto</th>
+                            <th>Setembro</th>
+                            <th>Outubro</th>
+                            <th>Novembro</th>
+                            <th>Dezembro</th>
+                            <th>ANO</th>
+                            <th></th>
+                            <th>ACUM.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bold-table">2021</td>
+                            <td class="fund-ibov-desc"> &nbsp <br> Fundo&nbsp&nbsp <br> &nbsp</td>
+                            <td></td>
+                            <td>-0,01%</td>
+                            <td>1,82%</td>
+                            <td>1,09%</td>
+                            <td>2,45%</td>
+                            <td>0,71%</td>
+                            <td>-0,75%</td>
+                            <td>-1,90%</td>
+                            <td>-3,36%</td>
+                            <td>-3,03%</td>
+                            <td>0,20%</td>
+                            <td>2,04%</td>
+                            <td>-0,93%</td>
+                            <td></td>
+                            <td>-0,93%</td>
+
+                        </tr>
+                        <tr>
+                            <td class="bold-table">2022</td>
+                            <td class="fund-ibov-desc"> &nbsp <br> Fundo&nbsp&nbsp <br> &nbsp</td>
+                            <td>1,50%</td>
+                            <td>-1,35%</td>
+                            <td>4,49%</td>
+                            <td>-1,00%</td>
+                            <td>1,10%</td>
+                            <td>-7,04%</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>-2,65%</td>
+                            <td></td>
+                            <td>-3,53%</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div><br>
+
+        <!--### CALCULADORA DE APOSENTADORIA ###-->
+
+        <p class="title-hist1">Simulador de Investimentos</p>
+        <section class="container-calculator">
+            <div class="calculator">
+                <div class="heading">
+                    <h3>Simulação de Aposentadoria</h3>
+                    <small>Qual será seu patrimônio antes da aposentadoria ...</small>
+                </div>
+                <form class="compound-form">
+                    <div class="input-group">
+                        <label for="initialamount">Aporte Inicial (R$)</label>
+                        <input type="number" id="initialamount" />
+                    </div>
+                    <div class="input-group">
+                        <label for="mensalaport">Aporte Mensal (R$)</label>
+                        <input type="number" id="mensalaport" />
+                    </div>
+                    <div class="input-group">
+                        <label for="years">Idade Atual (Anos)</label>
+                        <input type="number" id="years" />
+                    </div>
+                    <div class="input-group">
+                        <label for="years2">Idade de Aposentadoria (Anos)</label>
+                        <input type="number" id="years2" />
+                    </div>
+                    <div class="input-group">
+                        <label for="rates">Taxa Estimada (%)</label>
+                        <input type="number" id="rates" />
+                    </div>
+                    <div class="input-group">
+                        <button>Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="results">
+                <h3 id="message"></h3>
+                <canvas id="data-set"></canvas><br>
+            </div>
+
+        </section>
+
+        <div class="tableprevsize">
+            <div id="table-prev"></div>
+        </div>
+        <!--### CALCULADORA DE APOSENTADORIA ###-->
+        <br>
+        <p class="title-port">Alocação Atual</p>
+        <div class="portfólio">
+
+            <div class="imgport">
+                <!--Gráfico de ativos-->
+                <table class="table-port">
+                    <thead>
+                        <tr>
+                            <th>Classe</th>
+                            <th>Ticker</th>
+                            <th>% Atual</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ações</td>
+                            <td>Vêneto Dynamic FIA</td>
+                            <td>48,00%</td>
+                        </tr>
+                        <tr>
+                            <td>Renda Fixa</td>
+                            <td>Pós Fixado</td>
+                            <td>44,80%</td>
+                        </tr>
+                        <tr>
+                            <td>Renda Fixa</td>
+                            <td>Inflação Longa</td>
+                            <td>6,70%</td>
+                        </tr>
+                        <tr>
+                            <td>Renda Fixa</td>
+                            <td>Liquidez</td>
+                            <td>-0,8%</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+            <div class="pizza-position" id="pizza-position-prev"></div><br>
+
+            <!--Gráfico de Setores-->
+
+
+            <br>
+        </div>
+        <p class="title-port">Ativos detalhados - Crédito e Fundos</p>
+        <br>
+        <div class="conteudo">
+            <img src="img/ativosprev.PNG" alt="Ativos">
+
+
+        </div>
+
+
+    </div>
+
+    <!--Puxa o Código da Calculadora-->
+    <script src="js/calculator.js"></script>
+    <script src="js/pizza-prev.js"></script>
+</body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div id="rodape" class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
+</html>

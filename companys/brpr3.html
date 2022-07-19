@@ -1,0 +1,248 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/highcharts.css">
+    <link rel="stylesheet" type="text/css" href="comp.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="../js/highcharts.js"></script>
+    <title>Análise Vêneto</title>
+</head>
+
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="../img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="../index.html">Dynamic</a></li>
+                    <li><a href="../vp.html">VP Strategy</a></li>
+                    <li><a href="../prev.html">Previdência</a></li>
+                    <li><a href="../empresas.html">Empresas</a></li>
+                    <li><a href="../arquivos.html">Arquivos</a></li>
+                    <li><a href="../empresas.html">Voltar</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo">
+        <p class="description">Descrição da Empresa</p>
+        <div class="descriptiondivholder">
+            <div class="description-div">
+
+
+                <div class="img-pai">
+                    <table cellspacing="20">
+                        <tr>
+                            <td>
+                                <img class="img-logo" src="../img/brpr3.png" width="120" height="70" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="button" onclick=" window.open('https://www.brpr.com.br/')" id="btn">
+
+                                    <strong>SITE OFICIAL</strong> </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="div-text">
+                    <p class="desc-texto">A BR Properties é uma das principais empresas de investimento em imóveis
+                        comerciais de renda do Brasil. A Companhia tem como foco a aquisição, locação, administração,
+                        incorporação e venda de imóveis comerciais, especialmente imóveis qualificados como Escritórios,
+                        Galpões Industriais e de Varejo, localizados nas principais regiões metropolitanas do Brasil,
+                        como
+                        São Paulo e Rio de Janeiro.</p>
+
+                    <audio controls>
+                        <source src="../audio/Tese de BRPR3.mp3" type="audio/mpeg">
+                    </audio>
+
+                </div>
+            </div>
+
+        </div><br>
+        <!--Slide de fotos-->
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1">
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D1BAQHDGhvzMBZQgw/company-background_10000/0/1592418386961?e=2147483647&v=beta&t=8mpGHTIO2TksVOMW91XTJehFP3HvnT1VZpBO4_Zagas"
+                        alt="Ilustração BR Properties">
+                </div>
+
+                <div class="slide">
+                    <img src="https://newcdn.guiadoinvestidor.com.br/gdi-static/2021/06/brpr33.jpg"
+                        alt="Ilustração BR Properties">
+                </div>
+
+                <div class="slide">
+                    <img src="https://www.infomoney.com.br/wp-content/uploads/2019/10/45142d49685c07f4bb4e472665bbd009_1.jpg?fit=1023%2C674&quality=50&strip=all"
+                        alt="Ilustração BR Properties">
+                </div>
+
+                <div class="slide">
+                    <img src="https://braziljournal.com/wp-content/uploads/2022/06/5fac80c5-c289-3a7c-fe5d-37d0f8506ab0.jpg"
+                        alt="Ilustração BR Properties">
+                </div>
+
+                <div class="slide">
+                    <img src="https://classic.exame.com/wp-content/uploads/2021/12/IMG_3662site.jpg?quality=70&strip=info&w=1024"
+                        alt="Ilustração BR Properties">
+                </div>
+
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--Gráfico de preço do ativo-->
+
+        <p class="titleinvesting">Gráfico Dinâmico do ativo</p>
+        <iframe class="investing" id="tvc_frame_fc3a5df84155b1b8d1e7b74ef6ddf227" seamless="seamless"
+            src="https://tvc4.investing.com/init.php?family_prefix=tvc4&amp;carrier=adcf8614ff93eb5bfea296d44476462a&amp;time=1652722579&amp;domain_ID=30&amp;lang_ID=12&amp;timezone_ID=12&amp;pair_ID=18622&amp;interval=86400&amp;refresh=24&amp;session=session&amp;client=&amp;user=guest&amp;width=650&amp;height=450&amp;init_page=instrument&amp;m_pids=&amp;watchlist=&amp;site=https://br.investing.com"
+            width="950" height="450" style="width: 950px; height: 450px; display: inline;"></iframe>
+
+        <p class="titleinvesting">Dados gerais da empresa</p>
+        <div class="fundpai">
+            <div class="div-status">
+                <iframe class="statusinvest-brpr3" src="https://statusinvest.com.br/acoes/brpr3" scrolling="no"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <p class="titleinvesting">Indicadores Fundamentalistas do ativo</p>
+        <!--Slide de indicadores-->
+
+        <div class="navigation-holder">
+            <div class="navigation-ind">
+                <label class="bar-ind" for="slide1-ind">Dívida</label>
+                <label class="bar-ind" for="slide2-ind">NAV</label>
+                <label class="bar-ind" for="slide3-ind">Receita</label>
+                <label class="bar-ind" for="slide4-ind">Vacância</label>
+                <label class="bar-ind" for="slide5-ind">Dados Atuais</label>
+
+            </div>
+        </div><br>
+        <div class="fundpai">
+            <div class="content-ind">
+                <div class="slides-ind">
+                    <input type="radio" name="slide-ind" id="slide1-ind">
+                    <input type="radio" name="slide-ind" id="slide2-ind">
+                    <input type="radio" name="slide-ind" id="slide3-ind">
+                    <input type="radio" name="slide-ind" id="slide4-ind">
+                    <input type="radio" name="slide-ind" id="slide5-ind">
+
+                    <div class="slide s1-ind">
+
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/brpr3/brpr3 - divida.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/brpr3/brpr3 - nav.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/brpr3/brpr3 - receita.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/brpr3/brpr3 - vacancia.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <div class="fundpai-inside">
+                                <div class="div-fundamentus">
+                                    <iframe class="fundamentus"
+                                        src="https://fundamentus.com.br/detalhes.php?papel=BRPR3" scrolling="no"
+                                        frameborder="0"></iframe>
+                                    <!--https://bullrun.com.br/acoes/also3-->
+                                </div>
+
+
+                            </div>
+                            <br>
+                            <button class="button"
+                                onclick=" window.open('https://fundamentus.com.br/detalhes.php?papel=BRPR3')" id="btn">
+
+                                <strong>ACESSAR FUNDAMENTUS</strong></button>
+
+                            <button class="button" onclick=" window.open('https://statusinvest.com.br/acoes/brpr3')"
+                                id="btn">
+
+                                <strong>ACESSAR STATUS INVEST</strong></button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--PDF Apresentação da empresa-->
+        <p class="titleinvesting">Tese do Analista</p>
+        <embed src="../data/Cases/Case BRPR3.pdf" type="application/pdf" width="1300px" height="780px"
+            alt="Investment Case">
+
+    </div>
+</body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
+</html>

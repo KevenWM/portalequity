@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.investing {
+    width: 980px;
+    text-align: center;
+    border: 2px solid #df911da1;
+    background-image: url("../img/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titleinvesting {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcf8f8;
+    text-align: center;
+    position: relative;
+}
+
+/* Descrições*/
+
+
+.description {
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcf8f8;
+    text-align: center;
+}
+
+/*Divs e alinhamento */
+.descriptiondivholder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-div {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-pai {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo {
+    margin-right: 50px;
+}
+
+.desc-texto {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
+}
+
+.div-text {
+    width: 50%;
+}
+
+/* TABELA */
+.tabala-hist {
+    text-align: center;
+
+}
+
+@media (max-width: 850px) {
+
+    .description-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*Slideshow de Imagens*/
+
+.content {
+    margin: auto;
+    height: 420px;
+    width: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navigation {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    margin: 6px;
+    width: 50px;
+    height: 13px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    background-color: #fcf8f886;
+
+}
+
+.bar:hover {
+    background-color: antiquewhite;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+
+
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked~.s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked~.s1 {
+    margin-left: -80%;
+}
+
+
+/*BUTTON*/
+.button {
+    background-color: #df911da1;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+/*IFRAMES*/
+
+.fundpai {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.fundpai-inside {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.div-fundamentus {
+    width: 660px;
+    height: 275px;
+    position: relative;
+    border: 2px solid #df911da1;
+    background-image: url("../img/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: 2%;
+}
+
+.fundamentus {
+    position: absolute;
+    width: 950px;
+    height: 1500px;
+    top: -405px;
+    left: -15px;
+
+}
+
+.div-status {
+    width: 980px;
+    height: 280px;
+    position: relative;
+    border: 2px solid #df911da1;
+    background-image: url("../img/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.statusinvest {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5145px;
+    left: -500px;
+
+}
+
+/*Slide de indicadores */
+
+.div-fund-ind {
+    height: 500px;
+    width: 980px;
+    position: relative;
+    background-image: url("../img/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.content-ind {
+    height: 500px;
+    width: 980px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navigation-holder {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+
+}
+
+.navigation-ind {
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(90, 39, 9);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.bar-ind {
+    margin: 6px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .4s;
+    background-color: antiquewhite;
+
+}
+
+.bar-indx {
+    margin: 6px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .4s;
+    background-color: rgba(90, 39, 9, 0.377);
+    color: white;
+}
+
+.bar-ind:hover {
+    background-color: rgba(134, 134, 134, 0.281);
+    color: black;
+}
+
+input {
+    display: none;
+}
+
+.slides-ind {
+    display: flex;
+    width: 500%;
+    height: 100%;
+
+}
+
+.slide-ind {
+    width: 20%;
+    transition: .6s;
+
+}
+
+.slide-ind img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1-ind:checked~.s1-ind {
+    margin-left: 0;
+}
+
+#slide2-ind:checked~.s1-ind {
+    margin-left: -20%;
+}
+
+#slide3-ind:checked~.s1-ind {
+    margin-left: -40%;
+}
+
+#slide4-ind:checked~.s1-ind {
+    margin-left: -60%;
+}
+
+#slide5-ind:checked~.s1-ind {
+    margin-left: -80%;
+}
+
+
+/*--- LINKS---*/
+
+a:link {
+    text-decoration: none;
+    color: rgb(163, 108, 4);
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(163, 108, 4);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+/* ################ STATUS INVEVST COMPANYS ############## */
+
+.statusinvest-also3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5145px;
+    left: -500px;
+}
+
+.statusinvest-bbas3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5470px;
+    left: -500px;
+}
+
+.statusinvest-bpac11 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5080px;
+    left: -500px;
+}
+
+.statusinvest-bpan4 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5180px;
+    left: -500px;
+}
+
+.statusinvest-brpr3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5180px;
+    left: -500px;
+}
+
+.statusinvest-enbr3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5475px;
+    left: -500px;
+}
+
+.statusinvest-meta {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -1500px;
+    left: -430px;
+}
+
+.div-status-meta {
+    width: 1100px;
+    height: 480px;
+    position: relative;
+    border: 2px solid #df911da1;
+    background-image: url("../img/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.statusinvest-petr4 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5475px;
+    left: -500px;
+}
+
+.statusinvest-pfrm3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5110px;
+    left: -500px;
+}
+
+.statusinvest-rrrp3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -4750px;
+    left: -500px;
+}
+
+.statusinvest-sbfg3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -4782px;
+    left: -500px;
+}
+
+.statusinvest-simh3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5175px;
+    left: -500px;
+}
+
+.statusinvest-tasa4 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5180px;
+    left: -500px;
+}
+
+.statusinvest-vamo3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -4850px;
+    left: -500px;
+}
+
+.statusinvest-wizs3 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -5145px;
+    left: -500px;
+}

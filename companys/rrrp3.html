@@ -1,0 +1,250 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/highcharts.css">
+    <link rel="stylesheet" type="text/css" href="comp.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="../js/highcharts.js"></script>
+    <title>Análise Vêneto</title>
+</head>
+
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="../img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="../index.html">Dynamic</a></li>
+                    <li><a href="../vp.html">VP Strategy</a></li>
+                    <li><a href="../prev.html">Previdência</a></li>
+                    <li><a href="../empresas.html">Empresas</a></li>
+                    <li><a href="../arquivos.html">Arquivos</a></li>
+                    <li><a href="../empresas.html">Voltar</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo">
+        <p class="description">Descrição da Empresa</p>
+        <div class="descriptiondivholder">
+            <div class="description-div">
+
+                <div class="img-pai">
+                    <table cellspacing="20">
+                        <tr>
+                            <td>
+                                <img class="img-logo" src="../img/rrrp3.webp" width="120" height="70" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="button" onclick=" window.open('https://ri.3rpetroleum.com.br/')"
+                                    id="btn">
+
+                                    <strong>SITE OFICIAL</strong> </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="div-text">
+                    <p class="desc-texto">A 3R Petroleum é uma empresa do setor de óleo e gás com foco em
+                        redesenvolvimento
+                        de campos maduros em produção localizados em terra (onshore) e em águas rasas (shallow water).
+                        “Redesenvolver, Revitalizar e Repensar” são os pilares que norteiam sua estratégia de incremento
+                        de
+                        produção e reservas em campos maduros e que subsidiam a meta de a tornar uma grande companhia
+                        petrolífera privada e independente, com escala no Brasil e em outros países da América Latina.
+                    </p>
+
+                    <audio controls>
+                        <source src="../audio/Tese de RRRP3.mpeg" type="audio/mpeg">
+                    </audio>
+
+                </div>
+            </div>
+
+        </div><br>
+        <!--Slide de fotos-->
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1">
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="https://oespecialista.com.br/wp-content/uploads/2021/10/acoes-3r-petroleum-518x307.jpg"
+                        alt="Ilustração 3R Petroleum">
+                </div>
+
+                <div class="slide">
+                    <img src="https://files.sunoresearch.com.br/n/uploads/2020/12/7a66ad1c-3r-800x450.png"
+                        alt="Ilustração 3R Petroleum">
+                </div>
+
+                <div class="slide">
+                    <img src="https://s2.glbimg.com/74IA3vAzIcWjtWwNcixp12MOKq8=/0x0:911x367/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2020/h/r/ddBrWzRjqC1rq3asXNcw/captura-de-tela-2020-10-08-103800.jpg"
+                        alt="Ilustração 3R Petroleum">
+                </div>
+
+                <div class="slide">
+                    <img src="https://br.advfn.com/jornal/files/2021/05/3RPetroleum_1_24.845529.jpeg"
+                        alt="Ilustração 3R Petroleum">
+                </div>
+
+                <div class="slide">
+                    <img src="https://trademap.com.br/wp-content/uploads/elementor/thumbs/shutterstock_1938013477-pky11r0f0wrz40tduav5w33u3xlwbdis63j20hlieo.png"
+                        alt="Ilustração 3R Petroleum">
+                </div>
+
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--Gráfico de preço do ativo-->
+
+        <p class="titleinvesting">Gráfico Dinâmico do ativo</p>
+        <iframe class="investing" id="tvc_frame_fc3a5df84155b1b8d1e7b74ef6ddf227" seamless="seamless"
+            src="https://tvc4.investing.com/init.php?family_prefix=tvc4&amp;carrier=adcf8614ff93eb5bfea296d44476462a&amp;time=1652722579&amp;domain_ID=30&amp;lang_ID=12&amp;timezone_ID=12&amp;pair_ID=1167309&amp;interval=86400&amp;refresh=24&amp;session=session&amp;client=&amp;user=guest&amp;width=650&amp;height=450&amp;init_page=instrument&amp;m_pids=&amp;watchlist=&amp;site=https://br.investing.com"
+            width="950" height="450" style="width: 950px; height: 450px; display: inline;"></iframe>
+
+        <p class="titleinvesting">Dados gerais da empresa</p>
+        <div class="fundpai">
+            <div class="div-status">
+                <iframe class="statusinvest-rrrp3" src="https://statusinvest.com.br/acoes/rrrp3" scrolling="no"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <p class="titleinvesting">Indicadores Fundamentalistas do ativo</p>
+        <!--Slide de indicadores-->
+
+        <div class="navigation-holder">
+            <div class="navigation-ind">
+                <label class="bar-ind" for="slide1-ind">Receita</label>
+                <label class="bar-ind" for="slide2-ind">Mercado</label>
+                <label class="bar-ind" for="slide3-ind">Campos</label>
+                <label class="bar-ind" for="slide4-ind">M&A</label>
+                <label class="bar-ind" for="slide5-ind">Dados Atuais</label>
+
+            </div>
+        </div><br>
+        <div class="fundpai">
+            <div class="content-ind">
+                <div class="slides-ind">
+                    <input type="radio" name="slide-ind" id="slide1-ind">
+                    <input type="radio" name="slide-ind" id="slide2-ind">
+                    <input type="radio" name="slide-ind" id="slide3-ind">
+                    <input type="radio" name="slide-ind" id="slide4-ind">
+                    <input type="radio" name="slide-ind" id="slide5-ind">
+
+                    <div class="slide s1-ind">
+
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/rrrp3/rrrp3 - receita.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/rrrp3/rrrp3 - mercado.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/rrrp3/rrrp3 - campos.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/rrrp3/rrrp3 - m&a.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <div class="fundpai-inside">
+                                <div class="div-fundamentus">
+                                    <iframe class="fundamentus"
+                                        src="https://fundamentus.com.br/detalhes.php?papel=RRRP3" scrolling="no"
+                                        frameborder="0"></iframe>
+                                    <!--https://bullrun.com.br/acoes/also3-->
+                                </div>
+
+
+                            </div>
+                            <br>
+                            <button class="button"
+                                onclick=" window.open('https://fundamentus.com.br/detalhes.php?papel=RRRP3')" id="btn">
+
+                                <strong>ACESSAR FUNDAMENTUS</strong></button>
+
+                            <button class="button" onclick=" window.open('https://statusinvest.com.br/acoes/rrrp3')"
+                                id="btn">
+
+                                <strong>ACESSAR STATUS INVEST</strong></button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--PDF Apresentação da empresa-->
+        <p class="titleinvesting">Tese do Analista</p>
+        <embed src="../data/Cases/Case RRRP3.pdf" type="application/pdf" width="1300px" height="780px"
+            alt="Investment Case">
+
+    </div>
+</body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
+</html>

@@ -1,0 +1,6 @@
+
+function sairlogin() {
+
+    localStorage.clear()
+
+}

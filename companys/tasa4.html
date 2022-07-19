@@ -1,0 +1,247 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/highcharts.css">
+    <link rel="stylesheet" type="text/css" href="comp.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="../js/highcharts.js"></script>
+    <title>Análise Vêneto</title>
+</head>
+
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="../img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="../index.html">Dynamic</a></li>
+                    <li><a href="../vp.html">VP Strategy</a></li>
+                    <li><a href="../prev.html">Previdência</a></li>
+                    <li><a href="../empresas.html">Empresas</a></li>
+                    <li><a href="../arquivos.html">Arquivos</a></li>
+                    <li><a href="../empresas.html">Voltar</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo">
+        <p class="description">Descrição da Empresa</p>
+        <div class="descriptiondivholder">
+
+            <div class="description-div">
+
+                <div class="img-pai">
+                    <table cellspacing="20">
+                        <tr>
+                            <td>
+                                <img class="img-logo" src="../img/tasa4.png" width="120" height="60" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="button" onclick=" window.open('https://www.taurusri.com.br/')" id="btn">
+
+                                    <strong>SITE OFICIAL</strong> </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="div-text">
+                    <p class="desc-texto">A Taurus Armas S.A. é uma fabricante de armas de fogo brasileira sediada na
+                        cidade no estado do Rio Grande do Sul, Brasil. Fundada em 1939 na cidade de
+                        Porto Alegre, a Taurus hoje é a maior fabricante de armas de fogo do Brasil e a maior vendedora
+                        de revólveres do mundo. Ela possui duas unidades produtivas, uma em São Leopoldo e outra nos
+                        EUA, no estado da Geórgia, com capacidade diária total de produzir 10 mil armas.</p>
+
+                    <audio controls>
+                        <source src="../audio/Tese de TASA4.m4a" type="audio/mpeg">
+                    </audio>
+
+                </div>
+            </div>
+
+        </div> <br>
+        <!--Slide de fotos-->
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1">
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="https://s2.glbimg.com/4ULs63duh0wRn6T01jDYCqxEHYo=/0x0:1280x853/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2019/C/E/wNhz6lTQCE3AhgS3Jxsw/pistola-taurus-th9.jpg"
+                        alt="Ilustração Taurus Armas">
+                </div>
+
+                <div class="slide">
+                    <img src="https://www.smallcaps.com.br/wp-content/uploads/2021/11/taurus3.jpg"
+                        alt="Ilustração Taurus Armas">
+                </div>
+
+                <div class="slide">
+                    <img src="http://conteudo.imguol.com.br/c/noticias/ca/2019/01/16/linha-de-producao-da-fabricante-de-armas-taurus-em-sao-leopoldo-rs-1547651115661_v2_1920x1167.jpg"
+                        alt="Ilustração Taurus Armas">
+                </div>
+
+                <div class="slide">
+                    <img src="https://www.jornaldocomercio.com/_midias/jpg/2019/06/03/caderno_premio_exportacao_advb__case_taurur__credito_divulgacao_tauruss-8741382.jpg"
+                        alt="Ilustração Taurus Armas">
+                </div>
+
+                <div class="slide">
+                    <img src="https://1.bp.blogspot.com/-W-ho9_Ow2J0/XrRqK_6UrwI/AAAAAAAABMY/aHxrclq1ZrEBvxW6SG_aViNl0DmKLw5UgCLcBGAsYHQ/s640/FireShot%2BCapture%2B418%2B-%2B%2B-%2B.jpg"
+                        alt="Ilustração Taurus Armas">
+                </div>
+
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--Gráfico de preço do ativo-->
+
+        <p class="titleinvesting">Gráfico Dinâmico do ativo</p>
+        <iframe class="investing" id="tvc_frame_fc3a5df84155b1b8d1e7b74ef6ddf227" seamless="seamless"
+            src="https://tvc4.investing.com/init.php?family_prefix=tvc4&amp;carrier=adcf8614ff93eb5bfea296d44476462a&amp;time=1652722579&amp;domain_ID=30&amp;lang_ID=12&amp;timezone_ID=12&amp;pair_ID=18681&amp;interval=86400&amp;refresh=24&amp;session=session&amp;client=&amp;user=guest&amp;width=650&amp;height=450&amp;init_page=instrument&amp;m_pids=&amp;watchlist=&amp;site=https://br.investing.com"
+            width="950" height="450" style="width: 950px; height: 450px; display: inline;"></iframe>
+
+        <p class="titleinvesting">Dados gerais da empresa</p>
+        <div class="fundpai">
+            <div class="div-status">
+                <iframe class="statusinvest-tasa4" src="https://statusinvest.com.br/acoes/tasa4" scrolling="no"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <p class="titleinvesting">Indicadores Fundamentalistas do ativo</p>
+        <!--Slide de indicadores-->
+
+        <div class="navigation-holder">
+            <div class="navigation-ind">
+                <label class="bar-ind" for="slide1-ind">Produção</label>
+                <label class="bar-ind" for="slide2-ind">Margens</label>
+                <label class="bar-ind" for="slide3-ind">Dívida</label>
+                <label class="bar-ind" for="slide4-ind">Riscos</label>
+                <label class="bar-ind" for="slide5-ind">Dados Atuais</label>
+
+            </div>
+        </div><br>
+        <div class="fundpai">
+            <div class="content-ind">
+                <div class="slides-ind">
+                    <input type="radio" name="slide-ind" id="slide1-ind">
+                    <input type="radio" name="slide-ind" id="slide2-ind">
+                    <input type="radio" name="slide-ind" id="slide3-ind">
+                    <input type="radio" name="slide-ind" id="slide4-ind">
+                    <input type="radio" name="slide-ind" id="slide5-ind">
+
+                    <div class="slide s1-ind">
+
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/tasa4/tasa4 - produtividade.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/tasa4/tasa4 - margens.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/tasa4/tasa4 - dívida.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <img src="../img/fundament/tasa4/tasa4 - riscos.PNG" alt="Shopping da Aliansce">
+
+                        </div>
+                    </div>
+
+                    <div class="slide-ind">
+                        <div class="div-fund-ind">
+                            <div class="fundpai-inside">
+                                <div class="div-fundamentus">
+                                    <iframe class="fundamentus"
+                                        src="https://fundamentus.com.br/detalhes.php?papel=TASA4" scrolling="no"
+                                        frameborder="0"></iframe>
+                                    <!--https://bullrun.com.br/acoes/also3-->
+                                </div>
+
+
+                            </div>
+                            <br>
+                            <button class="button"
+                                onclick=" window.open('https://fundamentus.com.br/detalhes.php?papel=TASA4')" id="btn">
+
+                                <strong>ACESSAR FUNDAMENTUS</strong></button>
+
+                            <button class="button" onclick=" window.open('https://statusinvest.com.br/acoes/tasa4')"
+                                id="btn">
+
+                                <strong>ACESSAR STATUS INVEST</strong></button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--PDF Apresentação da empresa-->
+        <p class="titleinvesting">Tese do Analista</p>
+        <embed src="../data/Cases/Case TASA4.pdf" type="application/pdf" width="1300px" height="780px"
+            alt="Investment Case">
+
+    </div>
+</body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
+</html>

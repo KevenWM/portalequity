@@ -1,0 +1,202 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/highcharts.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/logincall.js"></script>
+
+    <!-- SITE CONTENT -->
+    <title>Análise Vêneto</title>
+</head>
+
+
+<body OnLoad="loading()">
+    <!--Pre-Load-->
+    <div id="box-load">
+        <div id="pre-load"></div>
+    </div>
+    <!--Pre-Load-->
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="./img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="index.html">Dynamic</a></li>
+                    <li><a href="vp.html">VP Strategy</a></li>
+                    <li><a href="prev.html">Previdência</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="arquivos.html">Arquivos</a></li>
+                    <li><a Onclick='sairlogin()' href="https://venetofamilyoffice.wixsite.com/website/">Portal
+                            Wix</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="load-page">
+        <div class="space">
+            <p class="title-emp">Dados - Empresas do Portfólio</p>
+            <div class="empresas1">
+                <ul>
+                    <li>
+                        <!--<a class="txsa34" href="companys/txsa34.html"><img src="img/txsa34.png" width="105"
+                                height="55" /></a>-->
+                        <a href="companys/also3.html"><img src="img/also3.png" width="105" height="50" /></a>
+                        <a href="companys/simh3.html"><img src="img/simh3.png" width="110" height="50" /></a>
+                        <a href="companys/wizs3.html"><img src="img/wizs3.png" width="100" height="55" /></a>
+                        <a href="companys/vamo3.html"><img src="img/vamo3.png" width="100" height="55" /></a>
+                        <a href="companys/bpac11.html"><img src="img/bpac11.png" width="105" height="60" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="empresas2">
+                <ul>
+                    <li>
+                        <a href="companys/rrrp3.html"><img src="img/rrrp3.webp" width="100" height="55" /></a>
+                        <a href="companys/bpan4.html"><img src="img/bpan4.webp" width="100" height="55" /></a>
+                        <a href="companys/tasa4.html"><img src="img/tasa4.png" width="100" height="60" /></a>
+                        <a href="companys/pfrm3.html"><img src="img/pfrm3.png" width="100" height="55" /></a>
+                        <a href="companys/petr4.html"><img src="img/petr4.png" width="105" height="55" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="empresas3">
+                <ul>
+                    <li>
+                        <a href="companys/bbas3.html"><img src="img/bbas3.png" width="100" height="60" /></a>
+                        <a href="companys/brpr3.html"><img src="img/brpr3.png" width="110" height="60" /></a>
+                        <a href="companys/enbr3.html"><img src="img/enbr3.webp" width="100" height="55" /></a>
+                        <a href="companys/fbok34.html"><img src="img/fbok34.png" width="110" height="40" /></a>
+                        <a href="companys/sbfg3.html"><img src="img/sbfg3.png" width="95" height="55" /></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <p class="title-emp">Empresas em acompanhamento</p>
+
+            <div class="empresas4">
+                <ul>
+                    <li>
+                        <a href="https://statusinvest.com.br/acoes/ambp3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/ambp3.webp" width="100" height="50" /></a>
+                        <a href="https://statusinvest.com.br/acoes/ceab3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/ceab3.png" width="100" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/fesa4" target="_blank"><img class="watchlist"
+                                src="img/watchlist/fesa4.png" width="110" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/fras3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/fras3.png" width="90" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/guar3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/guar3.png" width="95" height="45" /></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="empresas4">
+                <ul>
+                    <li>
+                        <a href="https://statusinvest.com.br/acoes/jslg3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/jslg3.png" width="90" height="45" /></a>
+                        <a href="https://statusinvest.com.br/acoes/klbn11" target="_blank"><img class="watchlist"
+                                src="img/watchlist/klbn11.png" width="100" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/lren3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/lren3.png" width="110" height="65" /></a>
+                        <a href="https://statusinvest.com.br/acoes/meal3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/meal3.png" width="90" height="55" /></a>
+                        <a href="https://statusinvest.com.br/acoes/movi3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/movi3.webp" width="100" height="60" /></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="empresas4">
+                <ul>
+                    <li>
+                        <a href="https://statusinvest.com.br/acoes/pcar3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/pcar3.jpg" width="90" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/prio3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/prio3.jpeg" width="100" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/rail3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/rail3.png" width="100" height="55" /></a>
+                        <a href="https://statusinvest.com.br/acoes/rani3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/rani3.webp" width="85" height="55" /></a>
+                        <a href="https://statusinvest.com.br/acoes/rapt4" target="_blank"><img class="watchlist"
+                                src="img/watchlist/rapt4.png" width="95" height="55" /></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="empresas4">
+                <ul>
+                    <li>
+                        <a href="https://statusinvest.com.br/acoes/recv3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/recv3.png" width="100" height="65" /></a>
+                        <a href="https://statusinvest.com.br/acoes/rent3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/rent3.png" width="100" height="40" /></a>
+                        <a href="https://statusinvest.com.br/acoes/shul4" target="_blank"><img class="watchlist"
+                                src="img/watchlist/shul4.jpeg" width="90" height="55" /></a>
+                        <a href="https://statusinvest.com.br/acoes/suzb3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/suzb3.png" width="95" height="55" /></a>
+                        <a href="https://statusinvest.com.br/acoes/tend3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/tend3.webp" width="110" height="50" /></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="empresas4">
+                <ul>
+                    <li>
+                        <a href="https://statusinvest.com.br/acoes/tupy3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/tupy3.png" width="100" height="45" /></a>
+                        <a href="https://statusinvest.com.br/acoes/vale3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/vale3.jpg" width="110" height="60" /></a>
+                        <a href="https://statusinvest.com.br/acoes/viva3" target="_blank"><img class="watchlist"
+                                src="img/watchlist/viva3.jpeg" width="100" height="55" /></a>
+
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+</body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div id="rodape" class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
+</html>
