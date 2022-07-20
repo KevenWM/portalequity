@@ -47,23 +47,22 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                { name: 'SIMH3', y: 10.44 },
-                { name: 'RRRP3', y: 10.12 },
-                { name: 'BPAC11', y: 10.11 },
-                { name: 'ALSO3', y: 10.11 },
-                { name: 'SALDO', y: 8.44 },
-                { name: 'TASA4', y: 6.94 },
-                { name: 'BRPR3', y: 6.15 },
-                { name: 'VAMO3', y: 5.56 },
-                { name: 'PETR4', y: 5.38 },
-                { name: 'FBOK34', y: 4.67 },
-                { name: 'SBFG3', y: 4.53 },
-                { name: 'BBAS3', y: 4.25 },
-                { name: 'BPAN4', y: 3.86 },
-                { name: 'WIZS3', y: 3.57 },
-                { name: 'ENBR3', y: 3.36 },
+                { name: 'ALSO3', y: 13.30 },
+                { name: 'SIMH3', y: 10.00 },
+                { name: 'BPAC11', y: 10.00 },
+                { name: 'SALDO', y: 8.40 },
+                { name: 'RRRP3', y: 8.00 },
+                { name: 'TASA4', y: 7.00 },
+                { name: 'BRPR3', y: 6.00 },
+                { name: 'M1TA34', y: 5.50 },
+                { name: 'VAMO3', y: 5.20 },
+                { name: 'SBFG3', y: 5.00 },
+                { name: 'ENBR3', y: 4.00 },
+                { name: 'PETR4', y: 4.00 },
+                { name: 'BBAS3', y: 4.00 },
+                { name: 'BPAN4', y: 4.00 },
+                { name: 'WIZS3', y: 3.00 },
                 { name: 'PFRM3', y: 2.50 },
-
             ]
         }]
     });
