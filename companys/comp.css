@@ -3,11 +3,16 @@
 
 .investing {
     width: 980px;
+    height: 450px;
     text-align: center;
     border: 2px solid #df911da1;
-    background-image: url("../img/loading.gif");
+    background-image: url("../img/graph-back.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    margin: auto;
+
 }
 
 .titleinvesting {
@@ -505,4 +510,18 @@ a:hover {
     height: 8000px;
     top: -5145px;
     left: -500px;
+}
+
+.button-graph {
+    background-color: #df911dde;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: absolute;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+    margin-top: 200px;
 }
