@@ -13,7 +13,7 @@ function entrar() {
 
     let listaUser = ['venetoasset', 'comercial123']
 
-    if (usuario.value == 'venetoasset' && senha.value == 'comercial123') {
+    if (usuario.value == 'venetoasset' && senha.value == 'comercial123' || usuario.value == 'veneto' && senha.value == 'veneto123') {
 
         let token = Math.random().toString(16).substring(2)
 
