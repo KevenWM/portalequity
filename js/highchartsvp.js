@@ -471,7 +471,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     0.8722,
                     0.8743,
                     0.8727,
-                    0.88,
                     0.8817,
                     0.8914,
                     0.9031,
