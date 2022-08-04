@@ -38,15 +38,39 @@ function entrar() {
 
     } else {
 
-        document.getElementById("userLabel").style.color = "red"
-        document.getElementById("senhaLabel").style.color = "red"
-        document.getElementById("usuario").style.borderColor = "red"
-        document.getElementById("senha").style.borderColor = "red"
-        document.getElementById("msgError").style.display = "block"
-        msgError.innerHTML = 'Usuário ou senha incorretos'
-        usuario.focus()
+        if (usuario.value == 'acesso3a' && senha.value == 'acesso3a123') {
 
+            let token = Math.random().toString(16).substring(2)
+
+            localStorage.setItem('token', token)
+
+            document.getElementById("userLabel").style.color = "green"
+            document.getElementById("senhaLabel").style.color = "green"
+            document.getElementById("usuario").style.borderColor = "green"
+            document.getElementById("senha").style.borderColor = "green"
+            document.getElementById("msgError").style.display = "none"
+            document.getElementById("msgAcerto").style.display = "block"
+            msgAcerto.innerHTML = 'Validando acesso ...'
+
+
+            setTimeout(() => {
+
+                window.location.href = "menu3a.html"
+
+            }, 2000)
+
+        } else {
+
+            document.getElementById("userLabel").style.color = "red"
+            document.getElementById("senhaLabel").style.color = "red"
+            document.getElementById("usuario").style.borderColor = "red"
+            document.getElementById("senha").style.borderColor = "red"
+            document.getElementById("msgError").style.display = "block"
+            msgError.innerHTML = 'Usuário ou senha incorretos'
+            usuario.focus()
+
+
+        }
 
     }
-
 }
