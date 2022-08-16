@@ -43,6 +43,7 @@ function entrar() {
             let token = Math.random().toString(16).substring(2)
 
             localStorage.setItem('token', token)
+            localStorage.setItem('user', usuario.value)
 
             document.getElementById("userLabel").style.color = "green"
             document.getElementById("senhaLabel").style.color = "green"
@@ -55,7 +56,8 @@ function entrar() {
 
             setTimeout(() => {
 
-                window.location.href = "menu3a.html"
+                window.location.href = "index.html"
+
 
             }, 2000)
 

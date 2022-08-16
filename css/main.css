@@ -23,6 +23,7 @@ ul {
 
 
 .logo {
+    display: none;
     margin: auto;
     float: left;
     text-align: center;
@@ -90,6 +91,7 @@ ul {
 }
 
 .menu2 {
+    display: none;
     width: 80%;
     margin: auto;
     align-items: center;
@@ -217,6 +219,11 @@ ul {
 }
 
 /* Divs*/
+
+#nav-hide {
+    display: none;
+
+}
 
 #load-page {
     display: none;

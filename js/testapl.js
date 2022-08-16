@@ -1,4 +1,4 @@
-Highcharts.getJSON('https://kevenwm.github.io/portalequity/data.csv', function (data) {
+Highcharts.getJSON('https://kevenwm.github.io/portalequity/data.json', function (data) {
     // Create the chart
     Highcharts.chart('container', {
         rangeSelector: {

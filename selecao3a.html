@@ -1,18 +1,306 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Estilos -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="./companys/comp.css">
+    <link rel="stylesheet" type="text/css" href="css/highcharts.css">
+    <!-- Modulos online -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+    <!--<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>-->
+    <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Pastas do Arquivo -->
+    <script src="js/highchartsvp.js"></script>
+    <script src="js/pizza-vp.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/logincall.js"></script>
+
+    <!-- SITE CONTENT -->
+
     <title>Análise Vêneto</title>
 </head>
 
-<body>
 
-    <h1>Fundo 3A</h1>
+<body onLoad="loading()">
+    <!--Pre-Load-->
+    <div id="box-load">
+        <div id="pre-load"></div>
+    </div>
+    <!--Pre-Load-->
+
+    <header class="menu-principal">
+        <main>
+            <div>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="./img/logovmf.png" alt="Logo" width="140" height="55" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+    <div class="header-2">
+        <div class="menu">
+            <div class="menu2">
+                <ul>
+                    <li><a href="index.html">Dynamic</a></li>
+                    <li><a href="vp.html">VP Strategy</a></li>
+                    <li><a href="prev.html">Previdência</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="arquivos.html">Arquivos</a></li>
+                    <li><a Onclick='sairlogin()' href="./login.html">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="load-page">
+        <div class="conteudo">
+
+            <p class="title-hist1">Descrição do Fundo</p>
+            <div class="descriptiondivholder">
+                <div class="description-div">
+                    <table cellspacing="5">
+                        <thead>
+                            <td>
+                                <h3 class="title-dmc">Seleção Private 3A Prev</h3>
+                            </td>
+                            <td>
+                                <button class="button" onclick=" window.open('')" id="btn">
+
+                                    <strong>Baixar Lâmina</strong> </button>
+                            </td>
+                        </thead>
+                        <tr>
+                            <td>
+                                <p class="title-dmc-desc">Focado na aposentadoria dos cotistas, o fundo Seleção Private
+                                    3A é
+                                    bastante diversificado em diferentes classes de ativos.
+                                    O fundo pode investir em ações nacionais e globais, renda fixa nacional e global,
+                                    commodities, ouro, fundos e outros. O fundo faz suas alocações através de outros
+                                    grandes fundos selecionados de forma a complementar a estratégia.</p>
+                            </td>
+
+                            <td><button class="button" onclick=" window.open('data/Carta/Carta Asset - JUNHO 22.pdf')"
+                                    id="btn">
+
+                                    <strong>Baixar Carta</strong> </button></td>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <div class="histórico">
+                <p class="title-hist1">Rentabilidade Acumulada - Seleção Private 3A</p>
+
+                <div class="container2" id="container2"></div>
+
+                <br>
+                <p class="title-hist1">Histórico de Rendimentos - Seleção Private 3A</p>
+                <div class="tabala-hist">
+                    <table class="table-port">
+                        <thead>
+                            <tr>
+                                <th>ANO</th>
+                                <th></th>
+                                <th>Janeiro</th>
+                                <th>Fevereiro</th>
+                                <th>Março</th>
+                                <th>Abril</th>
+                                <th>Maio</th>
+                                <th>Junho</th>
+                                <th>Julho</th>
+                                <th>Agosto</th>
+                                <th>Setembro</th>
+                                <th>Outubro</th>
+                                <th>Novembro</th>
+                                <th>Dezembro</th>
+                                <th>ANO</th>
+                                <th></th>
+                                <th>ACUM.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bold-table">2021</td>
+                                <td class="fund-ibov-desc"> &nbsp <br> Fundo&nbsp&nbsp <br> &nbsp</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0,03%</td>
+                                <td>0,03%</td>
+                                <td></td>
+                                <td>0,03%</td>
+
+                            </tr>
+                            <tr>
+                                <td class="bold-table">2022</td>
+                                <td class="fund-ibov-desc"> &nbsp <br> Fundo&nbsp&nbsp <br> &nbsp</td>
+                                <td>0,59%</td>
+                                <td>0,43%</td>
+                                <td>0,73%</td>
+                                <td>0,25%</td>
+                                <td>-0,11%</td>
+                                <td>0,79%</td>
+                                <td>0,53%</td>
+                                <td>0,79%</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>4,08%</td>
+                                <td></td>
+                                <td>4,11%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br>
+            <p class="title-port">Alocação Atual</p>
+            <div class="portfólio">
+
+                <div class="imgport">
+                    <!--Gráfico de ativos-->
+                    <table class="table-port">
+                        <thead>
+                            <tr>
+                                <th>Classe</th>
+                                <th>Ticker</th>
+                                <th>% Atual</th>
+                                <th>Acesso</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Pós Fixado</td>
+                                <td>IC SEG FIRF PLUS PRV</td>
+                                <td>14,11%</td>
+                                <td><a href="" target="_blank">Dados</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pós Fixado</td>
+                                <td>I VANG ABS PREV RFCP</td>
+                                <td>8,86%</td>
+                                <td><a href="" target="_blank">Dados</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Crédito Privado</td>
+                                <td>AUGME PREV FIRF CP</td>
+                                <td>8,33%</td>
+                                <td><a href="" target="_blank">Dados</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Pós Fixado</td>
+                                <td>AUGME PREV FIRF CP</td>
+                                <td>8,33%</td>
+                                <td><a href="" target="_blank">Dados</a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div>
+
+                <div class="pizza-position-vp" id="pizza-position-vp"></div><br>
+
+                <!--Gráfico de Setores-->
+            </div>
+            <p class="title-port">Alocação Setorial</p>
+            <div class="portfólio">
+                <div class="imgport">
+                    <table class="table-port-sec">
+                        <thead>
+                            <tr>
+                                <th>Setor</th>
+                                <th>% Atual</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ações</td>
+                                <td>27,09%</td>
+                            </tr>
+                            <tr>
+                                <td>Hedge Funds</td>
+                                <td>21,96%</td>
+                            </tr>
+                            <tr>
+                                <td>Renda Fixa</td>
+                                <td>21,61%</td>
+                            </tr>
+                            <tr>
+                                <td>Proteções</td>
+                                <td>17,13%</td>
+                            </tr>
+                            <tr>
+                                <td>Commodities</td>
+                                <td>12,21%</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="pizza-position-setor-vp" id="pizza-position-setor-vp"></div>
+            </div>
+
+            <p class="title-port">Apresentação da Estratégia - Seleção Private 3A</p>
+            <embed src="data/Cases/Apresentação - VP Strategy.pdf" type="application/pdf" width="980px"
+                height="600px"><br>
+
+            <p class="title-port">Backtest - Seleção Private 3A</p>
+            <div class="descriptiondivholder">
+                <p class="title-dmc-desc">Simulação de desempenho da estratégia de descorrelação de carteira
+                    utilizadando os fundos e classes de ativos na composição do Seleção Private 3A.</p>
+            </div>
+            <img src="img/backtestvp.PNG" alt="Backtest VP Strategy">
+
+            <!--Alocação por Classe-->
+        </div>
+    </div>
 
 </body>
+<br>
+<!--Rodapé da Página-->
+<tfoot>
+    <div id="rodape" class="rodape">
+        <div class="rodape-container">
+            <p class="disclaimer">DISCLAIMER: Este relatório foi preparado pela Vêneto Gestão de Recursos Ltda. para uso
+                exclusivo do
+                destinatário, não podendo ser reproduzido ou distribuído por este a qualquer pessoa sem a expressa
+                autorização. A elaboração do mesmo faz parte do processo de gestão da Vêneto, portanto, tem caráter
+                sigiloso
+                e exclusivo desta empresa. Eventual distribuição ou reprodução sem autorização devida serão tratadas
+                judicialmente resguardando o direito da Vêneto.</p>
+        </div>
+    </div>
+</tfoot>
+
 
 </html>
