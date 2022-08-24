@@ -47,22 +47,22 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                { name: 'ALSO3', y: 13.30 },
+                { name: 'ALSO3', y: 13.00 },
                 { name: 'SIMH3', y: 10.00 },
                 { name: 'BPAC11', y: 10.00 },
-                { name: 'SALDO', y: 8.40 },
+                { name: 'TASA4', y: 9.00 },
+                { name: 'SALDO', y: 8.00 },
                 { name: 'RRRP3', y: 8.00 },
-                { name: 'TASA4', y: 7.00 },
+                { name: 'VAMO3', y: 6.50 },
                 { name: 'BRPR3', y: 6.00 },
-                { name: 'M1TA34', y: 5.50 },
-                { name: 'VAMO3', y: 5.20 },
+                { name: 'M1TA34', y: 5.00 },
                 { name: 'SBFG3', y: 5.00 },
                 { name: 'ENBR3', y: 4.00 },
                 { name: 'PETR4', y: 4.00 },
                 { name: 'BBAS3', y: 4.00 },
                 { name: 'BPAN4', y: 4.00 },
-                { name: 'WIZS3', y: 3.00 },
                 { name: 'PFRM3', y: 2.50 },
+                { name: 'WIZS3', y: 1.00 },
             ]
         }]
     });
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             type: 'column',
             name: 'Upside Médio',
-            data: [64.40, 61.45, 78.26, 95.26, 83.98, 90.35, 75.57, 81.71, 83.96, 100.18]
+            data: [64.40, 61.45, 78.26, 95.26, 83.98, 90.35, 75.57, 81.71, 83.96, 100.18, 82.93]
         }, {
             type: 'spline',
             name: 'Média Histórica',
