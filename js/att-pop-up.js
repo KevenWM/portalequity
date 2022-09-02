@@ -14,7 +14,7 @@ function popupatt() {
         <br>
 
         <strong>XPBR31 - 31/08/2022</strong> <p> Recentemente finalizamos o estudo do case de XP e alinhado com uma queda recente do papel abaixo dos R$ 98,00 decidimos pelo novo investimento. 
-        Apesar de focada no mercado de capitais, o plano de negócios da XP está entrando em novas linhas de receitas bancárias, e alinhado ao valor descontado atualmente, acreditos
+        Apesar de focada no mercado de capitais, o plano de negócios da XP está entrando em novas linhas de receitas bancárias, e alinhado ao valor descontado atualmente, acreditamos
         que o papel tem boa margem de segurança com um retorno atrativo.</p>
 
         <br>
@@ -23,9 +23,6 @@ function popupatt() {
         esse percentual é saudável para o momento atual e estamos atentos a novas oportunidades de alocação ou realização de lucros.</p>
         
         `
-
-
-
 
     }
     else {
