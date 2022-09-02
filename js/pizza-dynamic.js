@@ -49,14 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
             data: [
                 { name: 'ALSO3', y: 13.00 },
                 { name: 'SIMH3', y: 10.00 },
-                { name: 'BPAC11', y: 10.00 },
+                { name: 'BPAC11', y: 9.00 },
                 { name: 'TASA4', y: 9.00 },
-                { name: 'SALDO', y: 8.00 },
+                { name: 'SALDO', y: 5.00 },
                 { name: 'RRRP3', y: 8.00 },
                 { name: 'VAMO3', y: 6.50 },
                 { name: 'BRPR3', y: 6.00 },
                 { name: 'M1TA34', y: 5.00 },
                 { name: 'SBFG3', y: 5.00 },
+                { name: 'XPBR31', y: 4.00 },
                 { name: 'ENBR3', y: 4.00 },
                 { name: 'PETR4', y: 4.00 },
                 { name: 'BBAS3', y: 4.00 },
@@ -116,18 +117,18 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                { name: 'Real Estate', y: 16.26 },
-                { name: 'Road & Rail', y: 16.01 },
-                { name: 'Oil & Gas', y: 15.50 },
-                { name: 'Capital Markets', y: 10.11 },
-                { name: 'Cash', y: 8.44 },
-                { name: 'Banks', y: 8.11 },
-                { name: 'Aerospace & Defense', y: 6.94 },
-                { name: 'Media', y: 4.67 },
-                { name: 'Specialty Retail', y: 4.53 },
-                { name: 'Insurance', y: 3.57 },
-                { name: 'Eletric Utilities', y: 3.36 },
-                { name: 'Health Care', y: 2.50 },
+                { name: 'Real Estate', y: 18.79 },
+                { name: 'Road & Rail', y: 16.39 },
+                { name: 'Oil & Gas', y: 12.07 },
+                { name: 'Capital Markets', y: 13.21 },
+                { name: 'Banks', y: 8.13 },
+                { name: 'Aerospace & Defense', y: 8.76 },
+                { name: 'Cash', y: 5.33 },
+                { name: 'Media', y: 5.00 },
+                { name: 'Specialty Retail', y: 4.99 },
+                { name: 'Eletric Utilities', y: 4.02 },
+                { name: 'Health Care', y: 2.56 },
+                { name: 'Insurance', y: 0.76 },
             ]
         }]
     });
@@ -156,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         xAxis: {
 
-            categories: ['13/09/2021', '08/10/2021', '26/11/2021', '05/01/2022', '14/02/2022', '11/03/2022', '08/04/2022', '13/05/2022', '10/06/2022', '08/07/2022']
+            categories: ['13/09/2021', '08/10/2021', '26/11/2021', '05/01/2022', '14/02/2022', '11/03/2022', '08/04/2022', '13/05/2022', '10/06/2022', '08/07/2022','19/08/2022']
         },
 
         yAxis: {
@@ -173,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, {
             type: 'spline',
             name: 'Média Histórica',
-            data: [79.14, 79.14, 79.14, 79.14, 79.14, 79.14, 79.14, 79.14, 79.14, 79.14],
+            data: [79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48],
             marker: {
                 lineWidth: 2,
                 lineColor: Highcharts.getOptions().colors[3],

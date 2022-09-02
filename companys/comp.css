@@ -512,6 +512,25 @@ a:hover {
     left: -500px;
 }
 
+.statusinvest-xpbr31 {
+    position: absolute;
+    width: 2000px;
+    height: 8000px;
+    top: -1500px;
+    left: -430px;
+}
+
+.div-status-xpbr31 {
+    width: 1100px;
+    height: 480px;
+    position: relative;
+    border: 2px solid #df911da1;
+    background-image: url("../img/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
 .button-graph {
     background-color: #df911dde;
     border: none;

@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                ['Mid Caps', 43.46],
-                ['Large Caps', 24.41],
-                ['Small Caps', 23.70],
-                ['Saldo', 8.44],
+                ['Mid Caps', 45.34],
+                ['Large Caps', 26.48],
+                ['Small Caps', 22.86],
+                ['Saldo', 5.33],
             ]
         }],
 

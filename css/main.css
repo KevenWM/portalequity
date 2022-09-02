@@ -502,3 +502,23 @@ ul {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+.att-button {
+    position: absolute;
+    margin-left: 70%;
+    background-color: rgba(172, 126, 27, 0.589);
+    color: white;
+    border-radius: 10px;
+    border-color: #999999ab;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pop-up-att {
+    padding: 50px;
+    width: 700px;
+    margin: auto;
+    background-color: rgba(226, 225, 224, 0.445);
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
