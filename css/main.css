@@ -522,3 +522,13 @@ ul {
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
+
+.comparativo-hold {
+    width: 980px;
+    margin: auto;
+}
+
+.comparativo-img {
+    width: 100%;
+    align-items: center;
+}

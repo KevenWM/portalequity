@@ -1,4 +1,25 @@
 
+let dt_upsidem = [64.40, 61.45, 78.26, 95.26, 83.98, 90.35, 75.57, 81.71, 83.96, 100.18, 82.93]
+
+var el_count = dt_upsidem.length
+
+const dt_mm_up = []
+
+for (let i = 0; i <= el_count; i++) {
+
+    if (i < 2) {
+
+        var average_up = dt_upsidem[i]
+
+    } else {
+
+        var average_up = ((dt_upsidem[i] + dt_upsidem[i - 1] + dt_upsidem[i - 2]) / 3)
+
+    }
+
+    dt_mm_up.push(average_up)
+}
+
 
 /***************** GRÁFICO DE PIZAA ******************/
 
@@ -152,12 +173,21 @@ document.addEventListener('DOMContentLoaded', () => {
             animation: true,
             shared: true
         },
+
         credits: {
-            enabled: false,
+            enabled: true,
+            text: '*Nosso horizonte de projeções está entre 3 a 5 anos.',
+            position: {
+                align: 'left',
+                x: 15
+            },
+
+
+
         },
         xAxis: {
 
-            categories: ['13/09/2021', '08/10/2021', '26/11/2021', '05/01/2022', '14/02/2022', '11/03/2022', '08/04/2022', '13/05/2022', '10/06/2022', '08/07/2022','19/08/2022']
+            categories: ['13/09/2021', '08/10/2021', '26/11/2021', '05/01/2022', '14/02/2022', '11/03/2022', '08/04/2022', '13/05/2022', '10/06/2022', '08/07/2022', '19/08/2022']
         },
 
         yAxis: {
@@ -170,11 +200,11 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             type: 'column',
             name: 'Upside Médio',
-            data: [64.40, 61.45, 78.26, 95.26, 83.98, 90.35, 75.57, 81.71, 83.96, 100.18, 82.93]
+            data: dt_upsidem
         }, {
             type: 'spline',
-            name: 'Média Histórica',
-            data: [79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48, 79.48],
+            name: 'Média Histórica (3M)',
+            data: dt_mm_up,
             marker: {
                 lineWidth: 2,
                 lineColor: Highcharts.getOptions().colors[3],
