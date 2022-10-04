@@ -8,19 +8,21 @@ function popupatt() {
     if ($('#pop-up-att').css('display') === 'none') {
         document.getElementById("pop-up-att").style.display = "block"
 
-        popup.innerHTML = `<strong>WIZS3 - 31/08/2022</strong> <p> Em agosto decidimos reduzir totalmente a posição no ativo WIZS3 devido aos movimentos de mercado onde vimos oportunidade
-        de realocação de recursos em outras oportunidades, seguiremos acompanhando o case e entraremos novamente caso o up-side esperado volte a ser atrativo. </p>
+        popup.innerHTML = `<strong>ITUB4 - 03/10/2022</strong> <p> Acreditamos que bancos se beneficiarão no cenário que vem a frente, 
+        além disso o valuation está muito atrativo para ignorar. Compramos 2,5% de Itaú. </p>
         
         <br>
 
-        <strong>XPBR31 - 31/08/2022</strong> <p> Recentemente finalizamos o estudo do case de XP e alinhado com uma queda recente do papel abaixo dos R$ 98,00 decidimos pelo novo investimento. 
-        Apesar de focada no mercado de capitais, o plano de negócios da XP está entrando em novas linhas de receitas bancárias, e alinhado ao valor descontado atualmente, acreditamos
-        que o papel tem boa margem de segurança com um retorno atrativo.</p>
+        <strong>BBDC4 - 03/10/2022</strong> <p> Acreditamos que bancos se beneficiarão no cenário que vem a frente, 
+        além disso o valuation está muito atrativo para ignorar. Compramos 2,5% de Bradesco.</p>
 
         <br>
 
-        <strong>Saldo - 31/08/2022</strong> <p> No consolidado, com o desinvestimento de Wiz e Investimento em XP nosso saldo acumulado ficou próximo de 5,3%. Acreditamos que
-        esse percentual é saudável para o momento atual e estamos atentos a novas oportunidades de alocação ou realização de lucros.</p>
+        <strong>PETR4 - 03/10/2022</strong> <p> Com o cenário de eleição e alta forte em Petrobras, decidimos reduzir a exposição, colocar lucro no bolso e aguardar
+        mais informações para revisar a tese.</p>
+
+        <strong>BBAS3 - 03/10/2022</strong> <p> Com o cenário de eleição e alta forte em Banco do Brasil, decidimos reduzir a exposição, colocar lucro no bolso e aguardar
+        mais informações para revisar a tese.</p>
         
         `
 

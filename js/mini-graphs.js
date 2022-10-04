@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Percentual',
             data: [
                 ['Mid Caps', 45.34],
-                ['Large Caps', 26.48],
+                ['Large Caps', 25.48],
                 ['Small Caps', 22.86],
-                ['Saldo', 5.33],
+                ['Saldo', 6.33],
             ]
         }],
 

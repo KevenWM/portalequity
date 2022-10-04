@@ -72,19 +72,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'SIMH3', y: 10.00 },
                 { name: 'BPAC11', y: 9.00 },
                 { name: 'TASA4', y: 9.00 },
-                { name: 'SALDO', y: 5.00 },
                 { name: 'RRRP3', y: 8.00 },
                 { name: 'VAMO3', y: 6.50 },
+                { name: 'SALDO', y: 6.50 },
                 { name: 'BRPR3', y: 6.00 },
                 { name: 'M1TA34', y: 5.00 },
                 { name: 'SBFG3', y: 5.00 },
+                { name: 'BPAN4', y: 5.00 },
                 { name: 'XPBR31', y: 4.00 },
                 { name: 'ENBR3', y: 4.00 },
-                { name: 'PETR4', y: 4.00 },
-                { name: 'BBAS3', y: 4.00 },
-                { name: 'BPAN4', y: 4.00 },
-                { name: 'PFRM3', y: 2.50 },
-                { name: 'WIZS3', y: 1.00 },
+                { name: 'PFRM3', y: 3.00 },
+                { name: 'ITUB4', y: 2.50 },
+                { name: 'BBDC4', y: 2.50 },
+                { name: 'DMVF3', y: 1.00 },
             ]
         }]
     });
@@ -140,16 +140,15 @@ document.addEventListener('DOMContentLoaded', () => {
             data: [
                 { name: 'Real Estate', y: 18.79 },
                 { name: 'Road & Rail', y: 16.39 },
-                { name: 'Oil & Gas', y: 12.07 },
                 { name: 'Capital Markets', y: 13.21 },
-                { name: 'Banks', y: 8.13 },
+                { name: 'Banks', y: 9.13 },
+                { name: 'Oil & Gas', y: 8.07 },
                 { name: 'Aerospace & Defense', y: 8.76 },
-                { name: 'Cash', y: 5.33 },
+                { name: 'Cash', y: 6.33 },
                 { name: 'Media', y: 5.00 },
                 { name: 'Specialty Retail', y: 4.99 },
                 { name: 'Eletric Utilities', y: 4.02 },
-                { name: 'Health Care', y: 2.56 },
-                { name: 'Insurance', y: 0.76 },
+                { name: 'Health Care', y: 3.56 },
             ]
         }]
     });
