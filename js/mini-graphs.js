@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                ['Mid Caps', 45.34],
-                ['Large Caps', 25.48],
-                ['Small Caps', 22.86],
-                ['Saldo', 6.33],
+                ['Mid Caps', 50.01],
+                ['Large Caps', 27.61],
+                ['Small Caps', 18.21],
+                ['Saldo', 4.17],
             ]
         }],
 
@@ -118,15 +118,15 @@ document.addEventListener('DOMContentLoaded', () => {
             type: 'pie',
             name: 'Percentual',
             data: [
-                ['Qualidade', 14, 78],
-                ['Nacional', 31.24],
+                ['Qualidade', 16, 58],
+                ['Nacional', 31.20],
                 {
                     name: 'Independente',
-                    y: 31.54,
+                    y: 36.51,
                     sliced: true,
                     selected: true
                 },
-                ['Dolarizada', 22.44],
+                ['Dolarizada', 15.71],
             ]
         }]
     });
