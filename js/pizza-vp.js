@@ -122,8 +122,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Renda Fixa', y: 34.50 },
                 { name: 'Ações Globais', y: 29.00 },
                 { name: 'Hedge Funds', y: 15.00 },
+                { name: 'Commodities', y: 11.00 },
                 { name: 'Proteções', y: 10.50 },
-                { name: 'Commodities', y: 8.00 },
+
             ]
         }]
     });
