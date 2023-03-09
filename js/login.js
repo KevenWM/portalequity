@@ -44,6 +44,8 @@ function entrar() {
 
         setTimeout(() => {
 
+            console.log("oi")
+
             window.location.href = "https://kevenwm.github.io/Portal--RF/index.html"
 
         }, 2000)

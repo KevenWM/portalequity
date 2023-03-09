@@ -1,12 +1,12 @@
 
-
+/* --> ALERTA DE LOGIN */
 setTimeout(function loading() {
 
     if (localStorage.getItem('token') == null) {
 
-        alert('Você precisa estar logado para acessar essa página, se você já logou e não consegue acessar, recomendo acessar via Google Chrome.')
+        /*alert('Você precisa estar logado para acessar essa página, se você já logou e não consegue acessar, recomendo acessar via Google Chrome.') */
 
-        window.location.href = 'login.html'
+        /* window.location.href = 'login.html' */
 
     }
 
