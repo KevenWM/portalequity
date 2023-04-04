@@ -90,6 +90,11 @@ ul {
     position: relative;
 }
 
+#homeicon {
+    width: 25px;
+    height: 20px;
+}
+
 .menu2 {
     display: none;
     width: 80%;

@@ -8,21 +8,10 @@ function popupatt() {
     if ($('#pop-up-att').css('display') === 'none') {
         document.getElementById("pop-up-att").style.display = "block"
 
-        popup.innerHTML = `<strong>ITUB4 - 03/10/2022</strong> <p> Acreditamos que bancos se beneficiarão no cenário que vem a frente, 
-        além disso o valuation está muito atrativo para ignorar. Compramos 2,5% de Itaú. </p>
-        
-        <br>
-
-        <strong>BBDC4 - 03/10/2022</strong> <p> Acreditamos que bancos se beneficiarão no cenário que vem a frente, 
-        além disso o valuation está muito atrativo para ignorar. Compramos 2,5% de Bradesco.</p>
-
-        <br>
-
-        <strong>PETR4 - 03/10/2022</strong> <p> Com o cenário de eleição e alta forte em Petrobras, decidimos reduzir a exposição, colocar lucro no bolso e aguardar
-        mais informações para revisar a tese.</p>
-
-        <strong>BBAS3 - 03/10/2022</strong> <p> Com o cenário de eleição e alta forte em Banco do Brasil, decidimos reduzir a exposição, colocar lucro no bolso e aguardar
-        mais informações para revisar a tese.</p>
+        popup.innerHTML = `<strong>Portfólio - 03/04/2023</strong> <p> No começo do ano de 2023 focamos em um caixa maior por volta de 17% para acompanhar os movimentos
+        de mercado e primeiros passos do novo governo. No patarmar de preço atual, começamos a reduzir o nosso caixa e alocar em teses micro que acreditamos
+        ser independente do cenário econômico interno. Patamar atualm de caixa está por volta de 15%, sendo o ativo mais novo da carteira BLAU3, no qual ainda 
+        estamos montando uma posição. </p>
         
         `
 
