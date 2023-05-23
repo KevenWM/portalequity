@@ -8,7 +8,9 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="css/login.css">
-
+    <!--Google Auth-->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
     <!-- Pastas do Arquivo -->
     <script src="./js/logincode.js"></script>
 
@@ -38,11 +40,42 @@
             </div>
 
             <div class="justify-center">
-                <button onclick="entrar()">Entrar</button>
+                <!--<button onclick="entrar()">Entrar</button>-->
+                <div id="buttonDiv"></div>
             </div>
 
         </div>
     </div>
+    <script>
+        function handleCredentialResponse(response) {
+            const data = jwt_decode(response.credential)
+            window.location.href = "https://kevenwm.github.io/Portal--RF/index.html";
+
+            //fullName.textContent = data.name
+            //email.textContent = data.email
+
+
+        }
+
+        window.onload = function () {
+            google.accounts.id.initialize({
+                client_id: "130374127971-rnsf3honfs28i146edp8mf2vgq1d2cqq.apps.googleusercontent.com",
+                callback: handleCredentialResponse
+            });
+            google.accounts.id.renderButton(
+                document.getElementById("buttonDiv"),
+                {
+                    theme: "filled_black",
+                    size: "large",
+                    type: "standard",
+                    shape: "pill",
+                    text: "continue_with",
+                    logo_alignment: "left"
+                }  // customization attributes
+            );
+            google.accounts.id.prompt(); // also display the One Tap dialog
+        }
+    </script>
 
     <script>
         document.getElementById("senha").addEventListener("keydown", function (event) {

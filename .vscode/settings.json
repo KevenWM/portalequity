@@ -1,5 +1,6 @@
 {
     "workbench.colorCustomizations": {
         "sash.hoverBorder": "#0d198c"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
