@@ -8,10 +8,9 @@ function popupatt() {
     if ($('#pop-up-att').css('display') === 'none') {
         document.getElementById("pop-up-att").style.display = "block"
 
-        popup.innerHTML = `<strong>Portfólio - 03/04/2023</strong> <p> No começo do ano de 2023 focamos em um caixa maior por volta de 17% para acompanhar os movimentos
-        de mercado e primeiros passos do novo governo. No patarmar de preço atual, começamos a reduzir o nosso caixa e alocar em teses micro que acreditamos
-        ser independente do cenário econômico interno. Patamar atualm de caixa está por volta de 15%, sendo o ativo mais novo da carteira BLAU3, no qual ainda 
-        estamos montando uma posição. </p>
+        popup.innerHTML = `<strong>Portfólio - 14/06/2023</strong> <p> Recentemente zeramos a posição em M1TA34 devido a forte alta do ativo no ano de 2023. Além disso,
+        abrimos um pequeno short em UNIP6 pelo fato de não concordamos com o atual preço do cloro e PVC, podendo aumentar no futuro a depender das condições de mercado. 
+        O mais novo ativo da carteira é BEEF3, acreditamos que o ciclo está positivo e o ativo muito descontado. </p>
         
         `
 
