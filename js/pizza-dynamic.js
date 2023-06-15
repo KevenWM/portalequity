@@ -68,27 +68,28 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                { name: 'SALDO', y: 14.68 },
+                { name: 'SALDO', y: 13.68 },
                 { name: 'ALSO3', y: 11.09 },
-                { name: 'BPAC11', y: 10.17 },
+                { name: 'BPAC11', y: 8.17 },
                 { name: 'RRRP3', y: 9.66 },
                 { name: 'SIMH3', y: 4.99 },
                 { name: 'BBAS3', y: 4.89 },
                 { name: 'NEOE3', y: 4.19 },
                 { name: 'ITSA4', y: 4.14 },
-                { name: 'BLAU3', y: 4.02 },
-                { name: 'VAMO3', y: 3.93 },
+                { name: 'BLAU3', y: 6.02 },
+                { name: 'VAMO3', y: 4.93 },
+                { name: 'BEEF3', y: 4.00 },
                 { name: 'JBSS3', y: 3.65 },
-                { name: 'XPBR31', y: 3.60 },
                 { name: 'ALUP11', y: 3.03 },
-                { name: 'M1TA34', y: 3.02 },
+                { name: 'BOVA11', y: 3.95 },
                 { name: 'SUZB3', y: 2.95 },
                 { name: 'KLBN11', y: 2.94 },
-                { name: 'HBSA3', y: 2.51 },
-                { name: 'SMTO3', y: 2.24 },
+                { name: 'SMAL11', y: 2.02 },
+                { name: 'HBSA3', y: 1.51 },
                 { name: 'PFRM3', y: 2.06 },
                 { name: 'JALL3', y: 1.05 },
                 { name: 'DMVF3', y: 1.01 },
+                { name: 'UNIP6', y: -1.01 },
             ]
         }]
     });
@@ -142,17 +143,16 @@ document.addEventListener('DOMContentLoaded', () => {
         series: [{
             name: 'Percentual',
             data: [
-                { name: 'Bancos e Seguradoras', y: 22.79 },
-                { name: 'SALDO', y: 14.68 },
+                { name: 'Bancos e Seguradoras', y: 20.79 },
+                { name: 'SALDO', y: 13.68 },
                 { name: 'Transporte e Logística', y: 11.42 },
                 { name: 'Real State e Shopping', y: 11.09 },
-                { name: 'Industrial e Petroquímico', y: 9.66 },
+                { name: 'Industrial e Petroquímico', y: 8.66 },
                 { name: 'Utilities', y: 7.22 },
                 { name: 'Saúde e Educação', y: 7.08 },
                 { name: 'Internacional', y: 5.90 },
-                { name: 'Consumo e Alimentos', y: 3.65 },
-                { name: 'Açucar e Álcool', y: 3.29 },
-                { name: 'Tecnologia', y: 3.02 },
+                { name: 'Consumo e Alimentos', y: 4.65 },
+                { name: 'Açucar e Álcool', y: 1.29 },
             ]
         }]
     });
