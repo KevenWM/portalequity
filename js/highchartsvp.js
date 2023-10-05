@@ -1056,7 +1056,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 name: 'Dólar',
                 data: [1,
-                    0, 9855,
+                    0.9855,
                     1.0022,
                     1.006,
                     1.009,
